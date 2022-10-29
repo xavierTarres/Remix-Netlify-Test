@@ -161,7 +161,7 @@ export default function Index() {
       setIsSubmitting(true)
       console.log('Submitted')
       let jsonData = { "email": email, "password": password, "name": nom, "surname": cognoms, "phone": `${prefix}${telefon}`, "birthdate": data, "country": pais }
-      let response = fetch(`http://localhost:8000/accounts/register`,
+      let response = fetch(`https://houshbe.azurewebsites.net/accounts/register`,
         {
           method: 'POST',
           mode: 'cors',
