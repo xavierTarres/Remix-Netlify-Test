@@ -8,7 +8,7 @@ export default function Dropdown() {
   const items = [
     {
       slug: "/register/",
-      anchor: "Regístrate"
+      anchor: "Register"
     },
     {
       slug: "/login/",
